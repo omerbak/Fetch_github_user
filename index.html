@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2faaae2ca3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Fetch Github Repos</title>
+</head>
+<body>
+    <div class="dark-mode-toggle">
+        <i class="fa-regular fa-sun"></i>
+        <i class="fa-regular fa-moon"></i>
+        <span class="circle"></span>
+    </div>
+    <div class="container">
+        <form class="get-repos" autocomplete="off">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input name="username" type="text" placeholder="Search Github Username">
+            <button class="get-button" type="submit">Search</button>
+        </form>
+        <p class="warning"></p>
+        <div class="result-container">
+        </div>
+    </div>
+    <div class="copyrights">
+        <div class="icons">
+            <a href="https://twitter.com/Ooo_bak" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/omerbak?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="text">Developed by <span>Omer Baktheer</span></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
